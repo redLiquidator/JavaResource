@@ -1,0 +1,154 @@
+zoom : 725 894 9135	| 971211
+
+Prepare
+-eclipse, zoom, notepad++
+Different Programming approaches
+SPA: html
+OOP:
+
+2021.5.1 homework
+Find the square of a number. Program4.java
+Simple Interest ((principle*rate*time)/100) Program5.java
+Acceptthee numbers and find their average Program6.java
+
+	Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter length: " );
+		int l  =sc.nextInt();
+		
+		
+		homework switch 1
+
+keywords=commands
+
+import java.util.*: - will import all util classes or
+import java.util.Scanner; -will import only the Scanner class
+
+Scanner sc = new Scanner(System.in);
+int n = sc.nextInt();
+
+nextInt();
+nextFloat();
+nextDouble();
+nextLong();
+next();    String /one word
+nextLine();  String / entire sentence till new line
+
+2021.05.02
+Tokens
+Tokens are the various Java program elements which are identified by the compiler.
+A  token is the smallest element of a program that is meaningful to the compiler
+Tokens supported in Java include keywords, variables, constants, special characters, operations etc.
+
+When you compile a program, the compiler scans the text in your sourcecode and extracts individual tokens.
+
+The sourcecode contains tokens such as public,class,Hello,{,.....
+Character Set - Set of alphabets,digits,letters and some special characters.
+including All special characters of keyboard,
+Blank space, \n,\r,\h,\v
+keyword: one of 50 reserved words that have a predefined meaning in the language.
+			I cannot use keywords as names for any identifier such as variables, methods, classes...
+Identifiers: names given to different user defined thing like variables, classes,
+			objects,functions.....
+constants: fixed value
+variables: values given to identifiers that can change their values during the execution of the program. 
+			ex.int x = 10;
+Data types: type of data
+Operators: different special symbols	
+	
+--operator	
+% : modulus / not percentage, returns the remainder of a division
+Mostly used with into data type as int does not return decimal place
+
+
+a = 10
+a = b
+a == b
+
+variable
+
+escape sequence
+
+=homework=
+Twinkle, twinkle, little star, How I wonder what you are! Up above the world so high, Like a diamond in the sky. Twinkle, twinkle, little star, How I wonder what you are!
+
+1st work algorithm
+1.algorithm/pseudocode/flowchart
+2. Algorithm must be language-independent
+input and output should be clearly defined.
+
+2nd work flowchart
+1.Flowchart visually represent a process or workflow in a step-by-step manner
+In programming, it is used to illustrate data flow.
+
+
+3rd work pseudocode
+implementation of an algorithm
+Pseudocode is a false code or a representation of code which can be understood by 
+even a layman with some school level programming knowledge.
+Acts as a bridge between the program and the algorithm(or flowchart).
+There are no technical rules for Pseudocode.
+
+*Nested ternary operator(Greater of 3 numbers)
+int a=10;
+int b=20;
+int c=30;
+
+Greater of 3 numbers
+int ans = (a>=b && a>=c) ? a: (b>=a&&b>=c )?b:c;
+          -------------
+              main
+ 
+              
+syntax:grammar
+if(condition){
+
+}
+
+e.g. for example
+unity operator ex. ++
+
+while
+1.To keep track of counting we will use a variable, say count
+2.Initial value of count will be 1.e.g. int count=1;
+3.Every time we print Hello!, we will increase the value of count by 1
+	e.g.1 : count = count+1; 
+	e.g.2 : count+=1;
+	e.g.3 : count++;
+4.before printing hello, we will check a condition to see if value of variable count <=3
+5.syntax: while(condition){	statements }
+6. example
+public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int c=1;			//initialization / giving initial value to variable that we
+									 want to check in condition
+		while(c<=3) {		//condition
+			System.out.println("Hello");
+			c++;		    //increment / decrement
+		}
+	}
+
+https://beginnersbook.com/java-tutorial-for-beginners-with-examples/
+https://www.geeksforgeeks.org/java/
+
+
+create a variable = take up a memory
+
+for clause
+	for(initialiazation;condition;increment/decrement){
+			statements;
+		
+	}
+initialization:  an initial value is given to the counter variable
+condition: check the condition
+increment/decrement: change the value of the counter variable
+
+
+pivonacci series: sum of the last two numbers
+				  1 1 2 3 5 8 13 : 8 terms pibonacci series
+	
+20210605
+ASCII : American Standard Code of Information Interchange
+
+
